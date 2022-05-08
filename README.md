@@ -72,7 +72,7 @@ file_name = 'Your-Path-of-AAPL_features.csv'
 
 # Results
 
-Given our observation that many models does not surpass the trivial loss, we first calculate trivial loss as a pass-line for a model. Any model under that line is useless.
+Given our observation that many models does not surpass the trivial loss, we first calculate trivial loss as a pass-line for a model. Any model under that line is useless. For illustration purpose, we only use some graphs, while all visualizations are available in notebooks.
 
 All hyper-parameters are shown in the notebooks
 
@@ -87,6 +87,18 @@ All hyper-parameters are shown in the notebooks
 
 ### Training one stock each with LSTM and MLP are around pass-line, indeed they do trivial prediction:
 
+![3df7828ae2a0212a06d3c0182ac89da](https://user-images.githubusercontent.com/97364054/167320715-1ccbe4cf-9d60-46b0-88ce-5ef7812039f0.png)
+
+![5fc31f349bf7883061c73d642e0968e](https://user-images.githubusercontent.com/97364054/167320716-89f0a3e3-d291-4e93-b081-cf9e23433805.png)
+
+### Traditional Machine Learning Model can surpass the pass-line a little:
+
+![image](https://user-images.githubusercontent.com/97364054/167320765-3a3ed523-e2e2-4cef-ab85-67c03a85c221.png)
+
+![image](https://user-images.githubusercontent.com/97364054/167320771-cf1b01d0-b00c-404b-b0d9-57f6d5bbc995.png)
+
+
+### Transformer Model gives pretty good prediction:
 
 
 
