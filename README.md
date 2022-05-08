@@ -74,6 +74,8 @@ file_name = 'Your-Path-of-AAPL_features.csv'
 
 Given our observation that many models does not surpass the trivial loss, we first calculate trivial loss as a pass-line for a model. Any model under that line is useless.
 
+![b93397af2cfc839ed1551135b1f3aed](https://user-images.githubusercontent.com/97364054/167320259-9e13fc53-9df3-4f93-985b-1340212a6085.png)
+
 # Reference
 
 [4]Sonkiya, Priyank, Vikas Bajpai and Anukriti Bansal. “Stock price prediction using BERT and GAN.” ArXiv abs/2107.09055 (2021): n. Pag.
