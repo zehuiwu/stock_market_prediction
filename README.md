@@ -45,7 +45,9 @@ The `dl_models` folder contains the training notebooks for dl models. The `LSTM 
 
 
 # Commands to excecute codes
-Since we are using notebooks, there is no need to run any command. You only need to go to the main page https://github.com/zehuiwu/stock_market_prediction, click on the 'code' icon, click 'download' and download everything. Then, you may upload all files (not folders, but files in them) to your notebook
+Since we are using notebooks, there is no need to run any command on terminal. You only need to go to the main page https://github.com/zehuiwu/stock_market_prediction, click on the 'code' icon, click 'download' and download everything. Then, you may upload the downloaded file to your notebook, and carefully go through file path. For example:
+
+
 
 # Reference
 
