@@ -33,6 +33,8 @@ However, the GAN model introduced by the paper has higher RMSE!
 # Repository description
 Inside the data folder, there are four subdirectories: `EOD`, `hourly`, `pca_features`, and `vae_features`. 
 
+the `data_extractions` and `feature_ops` contains files extract 
+
 The `EOD` folder contains all the raw data (two-year stock prices for 6 stocks, in addition 12-year for apple) downloaded from Yahoo Finance and the data after adding technical indicators. Inside the hourly folder, we collect the two-year hourly data for each stock. We cuurrently have not used these data in our model. The folder `pca_features`, and `vae_features` contain the features extracted in the `pca_features_extraction`, and `vae_features_extraction` notebooks in the 'feature_ops_notebook' folder. There are several hyperparameters that can be changed in those notebook to produce different sets of features.
 
 The `Ml_models` folder contains the training notebooks for ml models. To reproduce the results or use other dataset, make sure the path for data is correct in these notebooks. Files' name are as in notebooks, just change path. 
