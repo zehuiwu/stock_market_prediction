@@ -74,7 +74,21 @@ file_name = 'Your-Path-of-AAPL_features.csv'
 
 Given our observation that many models does not surpass the trivial loss, we first calculate trivial loss as a pass-line for a model. Any model under that line is useless.
 
+All hyper-parameters are shown in the notebooks
+
 ![b93397af2cfc839ed1551135b1f3aed](https://user-images.githubusercontent.com/97364054/167320259-9e13fc53-9df3-4f93-985b-1340212a6085.png)
+
+
+### Combining 6 stocks and train with LSTM and MLP does not achieve pass-line:
+
+![685ae3bca28e960291baa7a505e6cbe](https://user-images.githubusercontent.com/97364054/167320567-540aa9ed-9cca-4d35-a391-258921c099b0.png)
+
+![5a348003f056fc4a56762d0f73ec824](https://user-images.githubusercontent.com/97364054/167320570-6208962c-78e6-438a-8b16-c4467b9af2e3.png)
+
+### Training one stock each with LSTM and MLP are around pass-line, indeed they do trivial prediction:
+
+
+
 
 # Reference
 
