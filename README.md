@@ -45,7 +45,7 @@ The `dl_models` folder contains the training notebooks for dl models. The `LSTM 
 
 
 # Commands to excecute codes
-Since we are using notebooks, there is no need to run any command. You only need to download everything
+Since we are using notebooks, there is no need to run any command. You only need to click on the 'code' icon, click 'download' download everything
 
 # Reference
 
