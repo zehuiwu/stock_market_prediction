@@ -39,23 +39,40 @@ The `feature_ops` contains files extract and expand features. However, we have u
 
 The `EOD` folder contains all the raw data (two-year stock prices for 6 stocks, in addition 12-year for apple) downloaded from Yahoo Finance and the data after adding technical indicators. Inside the hourly folder, we collect the two-year hourly data for each stock. We cuurrently have not used these data in our model. The folder `pca_features`, and `vae_features` contain the features extracted in the `pca_features_extraction`, and `vae_features_extraction` notebooks in the 'feature_ops_notebook' folder. There are several hyperparameters that can be changed in those notebook to produce different sets of features.
 
-The `Ml_models` folder contains the training notebooks for ml models. To reproduce the results or use other dataset, make sure the path for data is correct in these notebooks. Files' name are as in notebooks, just change path. 
+The `Ml_models` folder contains the training notebooks for ml models. To reproduce the results or use other dataset, make sure the path for data is correct in these notebooks. 
 
-The `dl_models` folder contains the training notebooks for dl models. The `LSTM and MLP.ipynb` file contains training and visualization. You may view it directly, or directly download and run it. Whenever you see file_name varaible or any load() function, please make sure path is correct. The name of file is as provided. The `Transformer Stock.ipynb` contains model training and visualization, but output is cleaned out because there are too many outputs to open in github. In `Transformer Stock Graph.ipynb`, there are full visualization. The saved model of transformer is too large to be uplaoded in github, you may request throgh email if you need. To run them, just run the training file, it contains visualization after you run. The `Transformer Stock Graph.ipynb` file is for visualization purpose only.
+The `dl_models` folder contains the training notebooks for dl models. The `LSTM and MLP.ipynb` file contains training and visualization. You may view it directly, or directly download and run it. Whenever you see file_name varaible or any load() function, please make sure path is correct. The `Transformer Stock.ipynb` contains model training and visualization, but output is cleaned out because there are too many outputs to open in github. In `Transformer Stock Graph.ipynb`, there are full visualization. The saved model of transformer is too large to be uplaoded in github, you may request throgh email if you need. To run them, just run the training file, it contains visualization after you run. The `Transformer Stock Graph.ipynb` file is for visualization purpose only.
 
 
 # Commands to excecute codes
-Since we are using notebooks, there is no need to run any command on terminal. You only need to go to the main page https://github.com/zehuiwu/stock_market_prediction, click on the 'code' icon, click 'download' and download everything. Then, you may upload the downloaded file to your notebook, and carefully go through file path. For example:
+Since we are using notebooks, there is no need to run any command on terminal, but just adjusting file path. You only need to go to the main page https://github.com/zehuiwu/stock_market_prediction, click on the 'code' icon, click 'download' and download everything. Then, you may upload the downloaded file to your notebook, and carefully go through file path. 
+
+For example:
 
 ````python
 X_train = np.load('C:/Users/KingO/JupyterProject/stock-market-prediction/data/pca_features/X_train.npy')
 ````
 
-shold be change to 
+should be change to 
 ````python
 X_train = np.load('Your-Path-of-X_train.npy')
 ````
 
+Another example:
+
+````python
+file_name = 'AAPL_features.csv'
+````
+
+should become
+````python
+file_name = 'Your-Path-of-AAPL_features.csv'
+````
+
+
+# Results
+
+Given our observation that many models does not surpass the trivial loss, we first calculate trivial loss as a pass-line for a model. Any model under that line is useless.
 
 # Reference
 
