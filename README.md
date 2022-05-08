@@ -33,11 +33,11 @@ However, the GAN model introduced by the paper has higher RMSE!
 # Repository description
 Inside the data folder, there are four subdirectories: `EOD`, `hourly`, `pca_features`, and `vae_features`. 
 
-The `EOD` folder contains all the raw data (two-year stock prices for 6 stocks) downloaded from Yahoo Finance and the data after adding technical indicators. Inside the hourly folder, we collect the two-year hourly data for each stock. We cuurrently have not used these data in our model. The folder `pca_features`, and `vae_features` contain the features extracted in the `pca_features_extraction`, and `vae_features_extraction` notebooks in the 'feature_ops_notebook' folder. There are several hyperparameters that can be changed in those notebook to produce different sets of features.
+The `EOD` folder contains all the raw data (two-year stock prices for 6 stocks, in addition 12-year for apple) downloaded from Yahoo Finance and the data after adding technical indicators. Inside the hourly folder, we collect the two-year hourly data for each stock. We cuurrently have not used these data in our model. The folder `pca_features`, and `vae_features` contain the features extracted in the `pca_features_extraction`, and `vae_features_extraction` notebooks in the 'feature_ops_notebook' folder. There are several hyperparameters that can be changed in those notebook to produce different sets of features.
 
-The `Ml_models` folder contains the training notebooks for ml models. To reproduce the results or use other dataset, change the path for data in these notebooks. 
+The `Ml_models` folder contains the training notebooks for ml models. To reproduce the results or use other dataset, make sure the path for data is correct in these notebooks. Files' name are as in notebooks, just change path. 
 
-The `dl_models` folder contains the training notebooks for dl models. The 'LSTM and MLP.ipynb' file contains training and visualization. You may view it directly, or directly download and run it. Please be aware about the file path when loading files. All data are provided in 
+The `dl_models` folder contains the training notebooks for dl models. The `LSTM and MLP.ipynb` file contains training and visualization. You may view it directly, or directly download and run it. Whenever you see file_name varaible or any load() function, please make sure path is correct. The name of file is as provided. The `Transformer Stock.ipynb` contains model training and visualization, but output is cleaned out because there are too many outputs to open in github. In `Transformer Stock Graph.ipynb`, there are full visualization. The saved model of transformer is too large to be uplaoded in github, you may request throgh email if you need. To run them, just run the training file, it contains visualization after you run. The `Transformer Stock Graph.ipynb` file is for visualization purpose only.
 
 # Reference
 
