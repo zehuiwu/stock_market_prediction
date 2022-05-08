@@ -37,7 +37,7 @@ The `EOD` folder contains all the raw data (two-year stock prices for 6 stocks) 
 
 The `Ml_models` folder contains the training notebooks for ml models. To reproduce the results or use other dataset, change the path for data in these notebooks. 
 
-The `dl_models` folder contains the training notebooks for dl models.
+The `dl_models` folder contains the training notebooks for dl models. The 'LSTM and MLP.ipynb' file contains training and visualization. You may view it directly, or directly download and run it. Please be aware about the file path when loading files. All data are provided in 
 
 # Reference
 
