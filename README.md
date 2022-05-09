@@ -1,5 +1,5 @@
 # stock-market-prediction
-
+By Zehui Wu and Zonglin Lyu
 ## Project description
 
 Stock price prediction is a hot research topic. Given the arising of Deep Learning, many researchers are now trying to use Deep Learning techniques to do sotck price prediction. The stock markets are complex, non-linear and chaotic, which is not able to be estimated by Linear Models. However, Deep Learning is very good at dealing with non-linearity. We aim to use the information such as price of past 5 days to predict the next day's price, which is similar to a regression. In our project, we propose a model, which outperforms the trivial prediction and other models a lot, to predict the stock price and help our trading strategy. We tried out different techniques including tradidtional ML, MLP, LSTM, and finally find transformer can do well in this task.
