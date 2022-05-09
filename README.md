@@ -1,4 +1,4 @@
-# stock-market-prediction
+# Stock-Market-Prediction
 By Zehui Wu and Zonglin Lyu
 ## Project description
 
@@ -30,7 +30,7 @@ However, the GAN model introduced by the paper has higher RMSE!
 ![image](https://user-images.githubusercontent.com/97364054/167313077-d7e1480a-94fa-476e-b5d8-0ebf147ab123.png)
 
 
-# Repository description
+## Repository description
 Inside the data folder, there are four subdirectories: `EOD`, `hourly`, `pca_features`, and `vae_features`. 
 
 The `data_extractions` contains codes getting hourly data and sentiment data, but they are not used. You may ignore.
@@ -44,7 +44,7 @@ The `Ml_models` folder contains the training notebooks for ml models. To reprodu
 The `dl_models` folder contains the training notebooks for dl models. The `LSTM and MLP.ipynb` file contains training and visualization. You may view it directly, or directly download and run it. Whenever you see file_name varaible or any load() function, please make sure path is correct. The `Transformer Stock.ipynb` contains model training and visualization, but output is cleaned out because there are too many outputs to open in github. In `Transformer Stock Graph.ipynb`, there are full visualization. The saved model of transformer is too large to be uplaoded in github, you may request throgh email if you need. To run them, just run the training file, it contains visualization after you run. The `Transformer Stock Graph.ipynb` file is for visualization purpose only.
 
 
-# Commands to excecute codes
+## Commands to excecute codes
 Since we are using notebooks, there is no need to run any command on terminal, but just adjusting file path. You only need to go to the main page https://github.com/zehuiwu/stock_market_prediction, click on the 'code' icon, click 'download' and download everything. Then, you may upload the downloaded file to your notebook, and carefully go through file path. 
 
 For example:
@@ -70,7 +70,7 @@ file_name = 'Your-Path-of-AAPL_features.csv'
 ````
 
 
-# Results
+## Results
 
 Given our observation that many models does not surpass the trivial loss, we first calculate trivial loss as a pass-line for a model. Any model under that line is useless. For illustration purpose, we only use some graphs, while all visualizations are available in notebooks.
 
@@ -105,7 +105,7 @@ All hyper-parameters are shown in the notebooks
 
 The intuition to use CNN to create a embedding of input and then pass to transformer is: after left padding, the output is the same shape with input, but each position contains information before and at that postion. Then, it can illustrate a 'shape' of time series rather than a single value. Plus, transformer has succeeded in NLP field which is also dealing with sequetial input, the performance is pretty good.
 
-# Reference
+## Reference
 
 Ivan Letteri, Giuseppe Della Penna, Giovanni De Gasperis, Abeer Dyoub: “A Stock Trading System for a Medium Volatile Asset using Multi Layer Perceptron”, arXiv:2201.12286 [q-fin.ST]
 
