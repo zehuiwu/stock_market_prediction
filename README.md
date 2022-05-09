@@ -107,4 +107,12 @@ The intuition to use CNN to create a embedding of input and then pass to transfo
 
 # Reference
 
-[4]Sonkiya, Priyank, Vikas Bajpai and Anukriti Bansal. “Stock price prediction using BERT and GAN.” ArXiv abs/2107.09055 (2021): n. Pag.
+Ivan Letteri, Giuseppe Della Penna, Giovanni De Gasperis, Abeer Dyoub: “A Stock Trading System for a Medium Volatile Asset using Multi Layer Perceptron”, arXiv:2201.12286 [q-fin.ST]
+
+L. Chen, Z. Qiao, M. Wang, C. Wang, R. Du and H. E. Stanley, "Which Artificial Intelligence Algorithm Better Predicts the Chinese Stock Market?," in IEEE Access, vol. 6, pp. 48625-48633, 2018, doi: 10.1109/ACCESS.2018.2859809.
+
+Kang Zhang, Guoqiang Zhong, Junyu Dong, Shengke Wang, Yong Wang, Stock Market Prediction Based on Generative Adversarial Network, Procedia Computer Science, Volume 147, 2019, Pages 400-406, ISSN 1877-0509, https://doi.org/10.1016/j.procs.2019.01.256.
+
+Sonkiya, Priyank, Vikas Bajpai and Anukriti Bansal. “Stock price prediction using BERT and GAN.” ArXiv abs/2107.09055 (2021): n. Pag.
+
+LI, SHIYANG, Xiaoyong Jin, Yao Xuan, Xiyou Zhou, Wenhu Chen, Yu-Xiang Wang and Xifeng Yan. “Enhancing the Locality and Breaking the Memory Bottleneck of Transformer on Time Series Forecasting.” NeurIPS (2019).
