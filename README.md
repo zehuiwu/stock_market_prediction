@@ -100,7 +100,10 @@ All hyper-parameters are shown in the notebooks
 
 ### Transformer Model gives pretty good prediction:
 
+![4269ecf26f8bc87a8fcc5036503bbb0](https://user-images.githubusercontent.com/97364054/167321303-87960586-d7d8-407a-8567-eceebd909192.png)
 
+
+The intuition to use CNN to create a embedding of input and then pass to transformer is: after left padding, the output is the same shape with input, but each position contains information before and at that postion. Then, it can illustrate a 'shape' of time series rather than a single value. Plus, transformer has succeeded in NLP field which is also dealing with sequetial input, the performance is pretty good.
 
 # Reference
 
